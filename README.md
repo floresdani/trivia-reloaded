@@ -1,2 +1,2 @@
-# trivia-reloaded
-Reto de trivia reloadead
+# Trivia-reloaded
+Nuestro primer reto de Laboratoria, en el cual debemos modificar/cambiar el código
