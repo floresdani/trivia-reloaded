@@ -8,28 +8,14 @@
 </head>
 
 <body>
-    <div id="upperBar">
-        <span id="nameLabel">Nombre : </span>
-        <span id="name"></span>
-    </div>
-    <div id="scoreBoard">
-        <div id="rightAnswers">
-            <h2>Respuestas correctas</h2>
-            <div id="rightAnswersText">
-
-            </div>
-        </div>
-        <div id="wrongAnswers">
-            <h2>Respuestas incorrectas</h2>
-            <div id="wrongAnswersText">
-
-            </div>
-        </div>
-    </div>
-    <div id="warningBlock">
-        <p id="warningMessage"></p>
-    </div>
-    <script src="app.js"></script>
+    <h1>¡Hola! Bienvenida a nuestra Trivia sobre Laboratoria.</h1>
+    <form id="formulario" method="Post">
+            <input type="text" id="texto" placeholder="Escribe tu nombre"/>
+            <input type="button" name="enviar" value="Enviar" onclick="recibir();"/><br>
+            <div id="txt"></div>           
+    </form>
+            
+   <script src="app.js"></script>
 </body>
 
 </html>
