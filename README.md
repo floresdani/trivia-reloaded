@@ -1,2 +1,2 @@
-# Trivia-reloaded
-Nuestro primer reto de Laboratoria, en el cual debemos modificar/cambiar el código
+# 2018-1-Laboratoria-Trivia
+Solución al reto de la trivia
