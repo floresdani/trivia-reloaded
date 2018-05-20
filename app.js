@@ -5,21 +5,16 @@ function recibir(){
 }   /* Ingresar el nombre */
     /* Aceptar juego */
 function accept(){
-    
+var questions = "¿Hay sede en Concepción?";
+        
+
+        document.getElementById("question").innerHTML = questions;
+        document.getElementById("answer").innerHTML = answers;     
 }
     /* No aceptar juego */
 function notAccept() {
         document.getElementById("notPlaying").innerHTML = "Hasta pronto.";
 }
-function studentQuestions(){
-        var questions = [
-            "¿Hay sede en Concepción?", 
-            "¿Hay egresados hombres?", 
-            ];
-        var answers = [
-            ["No", "Sí"],
-            ["No", "Sí"],
-        ]; 
-        document.getElementById("question").innerHTML = questions;
-        document.getElementById("answer").innerHTML = answers;    
-    }
+
+           
+    
