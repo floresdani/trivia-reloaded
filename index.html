@@ -16,12 +16,15 @@
             <div id="txt"></div>    
         </form>
     
-            <button id="accept">Sí, juguemos</button>
-            <button id="notAccept">No por ahora</button> 
-            <p id="notPlaying"></p> 
-            <p id="playing"></p>         
+            <button onclick="accept()" id="play">Sí, juguemos</button>
+            <button onclick="notAccept()" id="notPlay">No por ahora</button> 
+            <p id="notPlaying"></p>          
 
-<script src="app.js"></script>
+        <input type="button" value="Preguntas sobre alumnas" onclick="studentQuestions()"/> 
+            <div id="question"></div>
+            <div id="answer"></div>  
+
+   <script src="app.js"></script>
 </body>
 
 </html>
