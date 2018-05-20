@@ -4,24 +4,22 @@ function recibir(){
         document.getElementById("txt").innerHTML="Bienvenid@ " + valor + " ¿Quiéres jugar?.";  
 }   /* Ingresar el nombre */
     /* Aceptar juego */
-function accept() {
- 
+function accept(){
+    
 }
     /* No aceptar juego */
 function notAccept() {
-        document.getElementById("notPlay").innerHTML = "Hasta pronto.";
+        document.getElementById("notPlaying").innerHTML = "Hasta pronto.";
 }
-    function studentQuestions(){
+function studentQuestions(){
         var questions = [
             "¿Hay sede en Concepción?", 
             "¿Hay egresados hombres?", 
             ];
-        var respuestas = [
+        var answers = [
             ["No", "Sí"],
             ["No", "Sí"],
         ]; 
         document.getElementById("question").innerHTML = questions;
-    }
-    function placeQuestions(){
-
-    }
+        document.getElementById("answer").innerHTML = answers;    
+    }   
