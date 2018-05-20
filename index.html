@@ -9,14 +9,22 @@
 
 <body>
     <h1>¡Hola! Bienvenida a nuestra Trivia sobre Laboratoria.</h1>
-    <form id="formulario" method="Post">
+        <form id="formulario" method="Post">
             <input type="text" id="texto" placeholder="Escribe tu nombre"/>
             <input type="button" name="enviar" value="Enviar" onclick="recibir();"/><br>
-            <div id="txt"></div>           
-    </form>
-    <input type="button" value="Preguntas sobre alumnas" onclick="studentQuestions()"/> 
-    <input type="button" value="Preguntas sobre sedes" onclick="placeQuestions()"/>
-    <div id="question"></div>       
+            <div id="txt"></div>    
+        </form>
+
+        <div id="startgame">
+            <button onclick="accept()" id="play">Sí, juguemos</button>
+            <button onclick="notAccept()" id="notPlay">No por ahora</button>
+        </div>   
+
+        <input type="button" value="Preguntas sobre alumnas" onclick="studentQuestions()"/> 
+        <input type="button" value="Preguntas sobre sedes" onclick="placeQuestions()"/>
+
+        <div id="question"></div>  
+             
    <script src="app.js"></script>
 </body>
 
