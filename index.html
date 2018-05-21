@@ -16,12 +16,14 @@
             <div id="txt"></div>    
         </form>
     
-            <button onclick="accept()" id="play">Sí, juguemos</button>
-            <button onclick="notAccept()" id="notPlay">No por ahora</button> 
+        <element id="buttons">
+            <form action="Preguntas.html"><input type="submit" value="Sí, juguemos"></form>
+        </element>
+        <button onclick="notAccept()" id="notPlay">No por ahora</button> 
             <p id="notPlaying"></p>          
 
-            <div id="question"></div>
-            <div id="answer"></div>  
+        <div id="question"></div>
+        <div id="answer"></div>  
 
    <script src="app.js"></script>
 </body>
