@@ -16,11 +16,26 @@
             <div id="txt"></div>    
         </form>
     
-        <element id="buttons">
-            <form action="Preguntas.html"><input type="submit" value="Sí, juguemos"></form>
-        </element>
+        <button onclick="accept()" id="play">Sí, juguemos</button>
         <button onclick="notAccept()" id="notPlay">No por ahora</button> 
             <p id="notPlaying"></p>    
+        
+        <div id="questions"></div>
+        <div id="answers"></div>  
+              
+        <div id="scoreBoard">
+            <div id="rightAnswers">
+                <h2>Respuestas correctas</h2>
+            <div id="rightAnswersText">    
+            </div>
+            </div>
+
+            <div id="wrongAnswers">
+                <h2>Respuestas incorrectas</h2>
+            <div id="wrongAnswersText">    
+            </div>
+            </div>
+        </div>
 
 <script src="app.js"></script>
 </body>
